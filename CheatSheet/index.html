@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Cheat Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+</header>
+<body>
+    <h1>Cheat Sheet</h1>
+    
+    <h2>Terminal commands</h2>
+     <p>here are a few terminal commands taught in codecademy and a few alts if they have changed</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Command</th>
+                <th>Alt</th>
+                <th>Definition</tr>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>pwd</td>
+                <td></td>
+                <td>list location in directory</td>
+            </tr>
+            <tr>
+                <td>cd</td>
+                <td></td>
+                <td>move into a folder</td>
+            <tr>
+                <td>cd ..</td>
+                <td></td>
+                <td> move up one folder layer</td>
+            </tr>
+            <tr>
+                <td>cd ../folder</td>
+                <td></td>
+                <td>move into the adjacent file</td>
+            </tr>
+            <tr>
+                <td>touch</td>
+                <td>code</td>
+                <td>create a new file to code in</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Selector CSS</h2>
+        <p>here are a few CSS rules and definitions</p>
+        <img style="width: 40%" src="C:\Users\emmab\OneDrive\Pictures\Documents\Coding\homework\CheatSheet\css tag anatomy.png"/>
+        <table>
+            <thead>
+                <tr>
+                    <th>Selector</th>
+                    <th>Definition</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>*</td>
+                    <td>selects every element</td>
+                </tr>
+                <tr>
+                    <td>#id</td>
+                    <td>selects an id elementby name</td>
+                <tr>
+                    <td>.class</td>
+                    <td>selects class element</td>
+                </tr>
+                <tr>
+                    <td>a [href*='name']</td>
+                    <td>selects element by content name</td>
+                </tr>
+                <tr>
+                    <td>element.class</td>
+                    <td>Chaining elements to target element within a class</td>
+                </tr>
+                <tr>
+                    <td>.class elemet</td>
+                    <td>selects element under class</td>
+                </tr>
+            </tbody>
+        </table>
+ 
+    <h2>Position CSS</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Proeperty</th>
+                <th>Value (format)</th>
+                <th>Definition</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>background-image</td>
+                <td>url("https://. . . ")</td>
+            </tr>
+            <tr>
+                <td>padding</td>
+                <td>#px #px #px #px</td>
+                <td><p>defines spacing inside an element set to 0 to make element touch sides</p>
+                    <p>2 values = top/bottom, R/L</p>
+                    <p>3 values = top, R/L, bottom</p>
+                    <p>4 values = top, R, bottom, L</p></td>
+            </tr>
+            <tr>
+                <td>margin</td>
+                <td>*see padding</td>
+                <td><p>Defines space oputside of an element  set to 0 to make element touch sides</p>
+                    <p>use auto to ceter must set a width to center. Can set larger than standard screen at 400 px</p></td>
+            </tr>
+            <tr>
+                <td>border</td>
+                <td>#px solid/dotted/etc color</td>
+                <td>defines border pixel width line type and color of line</td>
+            </tr>
+            <tr>
+                <td>overflow (x & y)</td>
+                <td>hidden/ scroll/ visible</td>
+                <td>define what happens when text or images overflow containers</td>
+            </tr>
+            <tr>
+                <td>Max/min-height/width</td>
+                <td>#px</td>
+                <td>sets max/min height/width of a section</td>
+            </tr>
+            <tr>
+                <td>visibility</td>
+                <td>hidden visible collapse</td>
+                <td>hidden will still display a space for the content but not the content</td>
+            </tr>
+            <tr>
+                <td>box-sizing</td>
+                <td>border-box</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td><li>static(dflt)</li>
+                    <li>relative (to ccurrent position)</li>
+                    <li>absolute(removed from normal flow and can overlap other elements. realative to parent element or flow of page)</li>
+                    <li>fixed(to view port will not move when page scrolls)</li> 
+                    <li>sticky (sticks when scrolled past)</li></td>
+                <td>position elements remove them from the flow or allow them to overlap
+                </td>
+            </tr>
+            <tr>
+                <td>display</td>
+                <td><li>inline</li>
+                    <li>block</li>
+                    <li>inline-block</li></td>
+                <td>Definition</td>
+            </tr>
+            <tr>
+                <td>z-index</td>
+                <td># value can be positive or negative</td>
+                <td>depth of overlapping elements. Does not work on static. default 0</td>
+            </tr>
+            <tr>
+                <td>float</td>
+                <td>Value (format)</td>
+                <td>Definition</td>
+            </tr>
+            <tr>
+                <td>clear</td>
+                <td>Value (format)</td>
+                <td>Definition</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>Font CSS</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Proeperty</th>
+                    <th>Value (format)</th>
+                    <th>Definition</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>font-family</td>
+                    <td>'font name', 'second websafe font option', 'third font option(serif or san-serif)'</td>
+                    <td>sets font style, set quotation marks around those with space in the name</td>
+                </tr>
+                <tr>
+                    <td>@font-face</td>
+                    <td><p>font-face: 'name of font'</p>
+                        <p>src: url('https:// . . . .(woff2)) format ('woff2'), url('https:// . . . .(woff)) format ('woff'), url('https:// . . . .(TTF)) format ('truetype');</p>
+                        <p>format options OTF TTF(truetype) WOFF WOFF2</p></td>
+                    <td>second way to link font from a downloaded file should include woff2, woff, ttf in that order</td>
+                </tr>
+                <tr>
+                    <td>font-weight</td>
+                    <td><li>numeric or text</li>
+                    <li>lighter light normal(dflt) bold bolder</li>
+                    <li>1-900 400=normal 700=bold</li></td>
+                    <td>sets thickness of typeface light to bold </td>
+                </tr>
+                <tr>
+                    <td>letter-spacing word-spacing</td>
+                    <td>can use #px #.# or em</td>
+                    <td>set space between individual letters or words</td>
+                </tr>
+                <tr>
+                    <td>line-height</td>
+                    <td>set as #px or #.#</td>
+                    <td>set height of line and space in-between lines will add space above text if larger than text</td>
+                </tr>
+                <tr>
+                    <td>text-align</td>
+                    <td>Value (format)</td>
+                    <td>Definition</td>
+                </tr>
+                <tr>
+                    <td>text-transform</td>
+                    <td>uppercase lowercase</td>
+                    <td>transform all letters to upper or lower case regardless of text in document</td>
+                </tr>
+                <tr>
+                    <td>font-style</td>
+                    <td>italic</td>
+                    <td>italicizes text</td>
+                </tr>
+                <tr>
+                    <td>&lt;strong&gt;</td>
+                    <td></td>
+                    <td>bold text</td>
+                </tr>    
+            </tbody>
+        </table>
+    
+    <h2>Color CSS</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Proeperty</th>
+                    <th>Value (format)</th>
+                    <th>Definition</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>color</td>
+                    <td><li>by name ie. blue hotpink azure</li>
+                        <li>by RGB# 1-255 rgb(#, #, #,)</li>
+                        <li>by HSL#  (hue, saturation, light 0-dark) hsl(1-360, #%, #%)</li>
+                        <li>by hex# (00-FF) #000000</li></td>
+                    <td>forground/text color</td>
+                </tr>
+                <tr>
+                    <td>background-color</td>
+                    <td>see color</td>
+                    <td>background color</td>
+                </tr>
+                <tr>
+                    <td>opacity/ alpha</td>
+                    <td>see color wirks with RGBA or HSLA (  ,  ,  , #.#)</td>
+                    <td>works on RGB and HSL A 0=transparent-1=opaque. can also add 2 digfits to a hex number #FFFFFF80 (80%) </td>
+                </tr>
+            </tbody>
+
+        </table>
+</body>
+</html>
