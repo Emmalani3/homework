@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    background-image: radial-gradient(circle at top left, #3facd2, 15%, #024cad, 25%, #7a2aa2, 35%, #f5318f, #fdde8e);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 40px;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+text {
+    padding: 10px;
+}
+
+.container {
+    display: inline-block;
+    border: 2px solid black;
+
+    float: left;
+    height: 100px;
+    width: 200px;
+    padding: 2px;
+    margin: 5px auto;
+}
+
+.flex-container {
+    display: inline-block;
+    border: 2px solid black;
+
+    float: left;
+    height: fit-content;
+    width: 300px;
+    padding: 2px;
+    margin: 5px auto;
+}
+
+.parent-container {
+    display: flex;
+    gap: 5px; /* Adjust spacing */
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 10px auto;
+}
+
+#blue {
+    background-color: #3facd2;
+    padding-right: 20px;
+}
+
+#deepBlue {
+    background-color: #024cad;
+    color: white;
+    padding-right: 20px;
+}
+
+#purple {
+    background-color: #7a2aa2;
+    color: white;
+    padding-right: 20px;
+}
+
+#pink {
+    background-color: #f5318f;
+    padding-right: 20px;
+}
+
+#yellow {
+    background-color: #fdde8e;
+    padding-right: 20px;
+}
+
+#black {
+    background-color: black;
+    color: white;
+    padding-right: 20px;
+}
+
+#white {
+    background-color: white;
+    color: black;
+    box-sizing: border-box
+    border: 2px solid black;
+    padding-right: 20px;
+}
+#gradient {
+    background-image: radial-gradient(circle at top left, #3facd2, 15%, #024cad, 30%, #7a2aa2, #f5318f, 85%, #fdde8e);
+    color:white;
+    text-shadow: 2px 2px darkslategray;
+    box-sizing: border-box
+    border: 2px solid black;
+    padding-right: 20px;
+}
+.lobster-regular {
+    font-family: "Lobster", "brush script", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.roboto {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
