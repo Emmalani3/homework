@@ -14,7 +14,7 @@
 header {
     width: 100%;
     height: 500px;
-    background-image: url("images/grayscale-throw.jpg");
+    background-image: url("../image/grayscale-throw.jpg");
     background-color: rgba(255, 255, 255, 0.5);
     background-size: cover;
     padding-bottom: 10px;
