@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="C:\Users\Emma\Documents\Coding\ResponsiveClub\styles.css">
+        <link rel="stylesheet" href="styles.css">
 
     </head>
     <body>
@@ -56,7 +56,7 @@
             <div class="commission" id="commission">
                 <h2>Get Commissions</h2>
                 <p>We list members in our artist database to help you get your work noticed. You can choose to be listed as a working artist and commission requests will be passed along to you. This is a free service we offer all artists! There are no costs WCS just gives you an opportunity to start the conversation.</p>
-                <img alt="throwing vase" class="commission-img" style="width:80%;" src="C:\Users\Emma\Documents\Coding\ResponsiveClub\images\throw1.jpg"/>
+                <img alt="throwing vase" class="commission-img" style="width:80%;" src="images\throw1.jpg"/>
 
             </div>
 
@@ -82,7 +82,7 @@
                         <td>$30</td>
                     </tr>
                 </table>
-                <img alt="KM818 kiln" class="kiln-img"  style="width:60%;" src="C:\Users\Emma\Documents\Coding\ResponsiveClub\images\kiln.png"/>
+                <img alt="KM818 kiln" class="kiln-img"  style="width:60%;" src="images\kiln.png"/>
 
             </div>
 
@@ -101,7 +101,7 @@
                     <li>Stonewear, Terracotta, and Porcelain Clay Bodies</li>
                     <p>And More!</p>
                 </ul>
-                <img alt="tools" class="work-img"  style="width: 80%;" src="C:\Users\Emma\Documents\Coding\ResponsiveClub\images\throw-tools.jpg"/>
+                <img alt="tools" class="work-img"  style="width: 80%;" src="images\throw-tools.jpg"/>
             </div>
 
             <div class="gal-title">
